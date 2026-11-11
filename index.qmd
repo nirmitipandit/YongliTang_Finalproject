@@ -379,13 +379,6 @@ m <- leaflet(data) %>%
 m  # a map with the default OSM tile layer
 ```
 
-### Dygraphs Example
-
-```{r}
-library(dygraphs)
-dygraph(nhtemp, main = "New Haven Temperatures") |> 
-  dyRangeSelector(dateWindow = c("1920-01-01", "1960-01-01")) 
-```
 
 # Conclusions
 
